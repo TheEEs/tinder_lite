@@ -1,0 +1,11 @@
+{
+  "appId": "com.tinderlite.app",
+  "appName": "TinderLite ",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "cordova": {},
+  "server":{
+    "url": "http://192.168.0.105:8080"
+  }
+}

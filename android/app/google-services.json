@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "546352183368",
+    "firebase_url": "https://tinderlite-push.firebaseio.com",
+    "project_id": "tinderlite-push",
+    "storage_bucket": "tinderlite-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546352183368:android:c6c5ad30c4a304e82dc07d",
+        "android_client_info": {
+          "package_name": "com.tinderlite.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546352183368-uou89b3ceahb03h0t4pl4utsfhc16m9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1ceCCaeBTcxMzhoQFwXuOtkUJ4kGHOmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546352183368-uou89b3ceahb03h0t4pl4utsfhc16m9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
