@@ -35,12 +35,15 @@
                 <f7-list-button @click="logout" color="yellow" title="Đăng xuất"></f7-list-button>
                 <f7-list-button v-if="user_registed" @click="cancelAccount" color="red" title="Xóa tài khoản"></f7-list-button>
             </f7-list>
-            {{userInfo}}
+            {{userProfile.avatar_url}}
             <input @change="avatar_change" id="avt" type="file" accept="image/*">
         </template>
     </div>
 </template>
 <style scoped>
+    #avt{
+        display: none;
+    }
     img{
         max-width: 100%;
         object-position: center;
@@ -171,7 +174,7 @@ export default {
         if(userProfile){
             this.set_user_registered(true);
             this.userInfo = userProfile;
-            this.avatar =  "http://192.168.0.105:3000" + userProfile.avatar_url;
+            this.avatar =  "http://172.105.127.137" + userProfile.avatar_url;
         }
         this.loaded = true;
     }
